@@ -18,6 +18,7 @@ function diapoRotate(){
     request.onload = function() {
         var diapoImgs = request.response;
     }
+    var diapoImgs = JSON.parse(resquestURL)
     
     
 }
